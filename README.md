@@ -1,27 +1,21 @@
-# Formulario
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+# Relatório sobre Formulários Dinâmicos em Angular
 
-## Development server
+Esse documento descreve a tecnologia e os conceitos aprendidos no texto sobre formulários dinâmicos em Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Tecnologias utilizadas
+1. Angular: Um framework JavaScript para desenvolvimento web de front-end.
+2. Reactive Forms: Uma abordagem do Angular para gerenciar formulários baseada em dados observáveis.
 
-## Code scaffolding
+### Conceitos aprendidos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Formulários dinâmicos: Formulários que podem ser criados e alterados em tempo de execução, sem necessidade de modificação do código da aplicação.
+- Modelo de Objeto de Formulário: Um modelo que define a estrutura e os metadados dos controles do formulário (perguntas, campos de texto, etc.).
+- Serviços: Classes que encapsulam a lógica de negócios e fornecem dados para os componentes do formulário.
+- Data binding dinâmica: Mecanismo para vincular dados a elementos do template do formulário, permitindo a renderização e atualização automática do formulário com base em alterações nos dados.
+- Validação de formulário: Processo de verificar se os dados inseridos pelo usuário estão de acordo com as regras definidas.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Benefícios dos formulários dinâmicos
+- Maior flexibilidade: Os formulários podem ser facilmente adaptados a diferentes cenários sem alterar o código da aplicação.
+- Manutenção mais fácil: A lógica de negócios fica centralizada nos serviços, facilitando a manutenção e modificação.
+- Reutilização de componentes: Os componentes do formulário podem ser reutilizados em diferentes partes da aplicação.
